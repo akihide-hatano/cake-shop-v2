@@ -1,1 +1,7 @@
 com/cakeshop/App.class
+com/cakeshop/pricing/NormalPrice.class
+com/cakeshop/shop/CakeShop.class
+com/cakeshop/product/Product.class
+com/cakeshop/pricing/PricePolicy.class
+com/cakeshop/product/BakedSweet.class
+com/cakeshop/product/Cake.class

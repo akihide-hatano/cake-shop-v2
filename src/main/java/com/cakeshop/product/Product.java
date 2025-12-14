@@ -1,4 +1,4 @@
-package com.cakeshop.product
+package com.cakeshop.product;
 
 import com.cakeshop.pricing.PricePolicy;
 
@@ -20,12 +20,12 @@ public abstract class Product {
         return name;
     }
 
-    public String git push -u origin main(){
+    public String getDescription(){
         return description;
     }
 
-    public int gatPrice(){
-        return pricePolicy.calculate(basePrice)
+    public int getPrice(){
+        return pricePolicy.calculate(basePrice);
     }
 
     //継承先で必ずカテゴリを決めさせる

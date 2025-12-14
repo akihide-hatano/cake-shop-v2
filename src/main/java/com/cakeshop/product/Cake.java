@@ -1,6 +1,6 @@
 package com.cakeshop.product;
 
-import com.cakeshop.PricePolicy;
+import com.cakeshop.pricing.PricePolicy;
 
 public class Cake extends Product{
     public Cake(String name,String description,int basePrice,PricePolicy pricePolicy){
